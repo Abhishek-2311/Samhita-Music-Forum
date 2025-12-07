@@ -12,15 +12,15 @@ export default function HeroSection() {
     <AnimatedSection
       as="section"
       id="home"
-      className="pt-24 pb-16 sm:pt-32 sm:pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden min-h-screen flex items-center bg-gradient-to-br from-amber-50 to-white dark:from-gray-900 dark:to-amber-900/10"
+      className="pt-24 pb-16 sm:pt-32 sm:pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden min-h-screen flex items-center"
     >
-      <div className="absolute inset-0 -z-20">
+      <div className="absolute inset-0 -z-10">
         <img
           src="/tabla-tanpura-sitar-instruments-background.jpg"
           alt="Classical instruments background"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-white/98 via-white/95 to-white/90 dark:from-gray-50/95 dark:via-gray-50/90 dark:to-gray-50/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-white/85 via-white/75 to-amber-50/70 dark:from-gray-900/85 dark:via-gray-900/80 dark:to-gray-900/70"></div>
       </div>
 
       {/* Decorative elements */}
@@ -31,21 +31,21 @@ export default function HeroSection() {
         <div className="flex justify-center items-center">
           <div className="space-y-8 text-center max-w-3xl">
             <div className="space-y-4 sm:space-y-6">
-              <AnimatedItem as="h1" className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-balance leading-tight text-gray-900 dark:text-white">
+              <AnimatedItem as="h1" className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-extrabold text-balance leading-tight text-gray-900 dark:text-white">
                 Samhita Music Forum, Sirsi
               </AnimatedItem>
-              <AnimatedItem as="p" className="text-lg sm:text-xl text-amber-700 dark:text-amber-400 font-light leading-relaxed">
-                Affiliated with Gandharva Mahavidyalay, Pune
+              <AnimatedItem as="p" className="text-lg sm:text-xl text-amber-700 dark:text-amber-400 font-semibold leading-relaxed">
+                Affiliated with Gandharva Mahavidyalaya, Maharashtra
               </AnimatedItem>
             </div>
 
-            <AnimatedItem as="p" className="text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto" delay={0.1}>
+            <AnimatedItem as="p" className="text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300 font-medium leading-relaxed max-w-3xl mx-auto" delay={0.1}>
               Providing authentic Hindustani classical music education through experienced teachers.
               Classes include tabla and vocal training, systematic syllabus-based learning, and guidance for formal music examinations.
             </AnimatedItem>
 
             <AnimatedItem as="div" className="flex flex-wrap gap-4 pt-4 justify-center" delay={0.2}>
-              <a 
+              <a
                 href="#contact"
                 className="px-8 sm:px-12 py-3 sm:py-4 bg-amber-600 text-white rounded-lg hover:bg-amber-700 transition-all font-bold text-base sm:text-lg shadow-lg hover:shadow-xl transform hover:scale-105 active:scale-95 border border-amber-700/20"
               >

@@ -36,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${openSans.variable} ${cinzel.variable} ${dancingScript.variable} font-sans antialiased bg-background text-foreground`}>
         {children}
         <Analytics />

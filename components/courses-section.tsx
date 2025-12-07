@@ -37,6 +37,13 @@ export default function CoursesSection() {
             <AnimatedItem as="h2" className="text-4xl md:text-5xl font-serif font-bold text-gray-900 dark:text-white">
               Our Courses
             </AnimatedItem>
+            <AnimatedItem delay={0.05}>
+              <div className="flex items-center justify-center gap-2 mx-auto w-32">
+                <div className="w-3 h-3 rounded-full bg-amber-500"></div>
+                <div className="flex-1 h-1 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-300 rounded-full"></div>
+                <div className="w-3 h-3 rounded-full bg-amber-500"></div>
+              </div>
+            </AnimatedItem>
             <AnimatedItem as="p" className="text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto" delay={0.1}>
               From beginners to advanced practitioners, we offer comprehensive courses tailored to your musical journey.
             </AnimatedItem>

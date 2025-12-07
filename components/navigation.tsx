@@ -21,17 +21,15 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="#home" className="flex items-center gap-2 sm:gap-3">
-            <div className="relative bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm rounded-full p-0.5 sm:p-1 border-2 sm:border-4 border-amber-200 dark:border-amber-700 shadow-md sm:shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+            <div className="relative bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm rounded-full p-1 sm:p-1.5 border-2 sm:border-4 border-amber-200 dark:border-amber-700 shadow-md sm:shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
               <img
-                src="/images/logo.jpg"
+                src="/samhita-logo.png"
                 alt="Samhita Music Forum Logo"
-                className="h-12 w-12 sm:h-16 sm:w-16 md:h-20 md:w-20 lg:h-28 lg:w-28 rounded-full object-cover"
-                width={112}
-                height={112}
+                className="h-22 w-22 sm:h-26 sm:w-26 md:h-30 md:w-30 lg:h-36 lg:w-36 object-contain mt-2 sm:mt-3"
                 loading="eager"
               />
             </div>
-            <span className="text-sm sm:text-base font-serif font-bold text-foreground whitespace-nowrap">Samhita Music Forum</span>
+
           </Link>
 
           {/* Desktop Menu */}
@@ -51,7 +49,7 @@ export default function Navigation() {
           </div>
 
           <div className="hidden md:flex gap-2 items-center">
-            <a 
+            <a
               href="#contact"
               className="px-8 py-3 bg-accent text-accent-foreground rounded-lg hover:bg-accent/90 transition-all font-serif font-medium text-base shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
             >
@@ -82,7 +80,7 @@ export default function Navigation() {
                   {link.label}
                 </a>
               ))}
-              <a 
+              <a
                 href="#contact"
                 className="block w-full mt-4 px-6 py-3.5 bg-accent text-accent-foreground rounded-lg hover:bg-accent/90 transition-all font-semibold text-center active:scale-95 transform"
                 onClick={() => setIsOpen(false)}

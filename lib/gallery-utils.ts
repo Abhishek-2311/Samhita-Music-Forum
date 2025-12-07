@@ -20,8 +20,8 @@ export function convertGoogleDriveLink(shareLink: string): string {
     const match = shareLink.match(pattern)
     if (match && match[1]) {
       const fileId = match[1]
-      // Return direct image URL - using multiple formats for better compatibility
-      // Try thumbnail format first (more reliable), then fallback to view format
+      // Use Google Drive's thumbnail API - designed specifically for embedding
+      // sz parameter controls size: w1000 = 1000px width (good quality)
       return `https://drive.google.com/thumbnail?id=${fileId}&sz=w1000`
     }
   }

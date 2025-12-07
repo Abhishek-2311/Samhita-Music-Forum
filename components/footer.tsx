@@ -113,10 +113,10 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-primary-foreground/80">
           <p>&copy; 2025 Samhita Music Forum. All rights reserved.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-primary-foreground transition">
+            <a href="/privacy" className="hover:text-primary-foreground transition">
               Privacy Policy
             </a>
-            <a href="#" className="hover:text-primary-foreground transition">
+            <a href="/terms" className="hover:text-primary-foreground transition">
               Terms of Service
             </a>
           </div>

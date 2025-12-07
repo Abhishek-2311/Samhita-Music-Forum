@@ -8,6 +8,7 @@ import {
   Dialog,
   DialogContent,
   DialogTrigger,
+  DialogTitle,
 } from '@/components/ui/dialog'
 import { convertGoogleDriveLink } from '@/lib/gallery-utils'
 
@@ -888,7 +889,7 @@ export default function GallerySection() {
 
   // Get categories
   const categories = getCategories(galleryPhotos)
-  
+
   // Add Annual Conference Photos category if we have folders
   if (annualConferenceFolders.length > 0 && !categories.includes('Annual Conference Photos')) {
     categories.push('Annual Conference Photos')
@@ -910,8 +911,8 @@ export default function GallerySection() {
   }
 
   // Check if we should show folder embed for Annual Conference Photos
-  const showAnnualConferenceFolders = 
-    selectedCategory === 'Annual Conference Photos' && 
+  const showAnnualConferenceFolders =
+    selectedCategory === 'Annual Conference Photos' &&
     annualConferenceFolders.length > 0 &&
     filteredPhotos.length === 0
 
@@ -954,14 +955,14 @@ export default function GallerySection() {
           }}
           className="w-full"
         >
-          <div className="flex justify-center mb-10">
-            <TabsList className="inline-flex h-auto p-1 bg-muted/30 backdrop-blur-sm rounded-xl border border-border/20 shadow-sm">
+          <div className="flex justify-center mb-10 overflow-x-auto pb-2 -mx-4 px-4 sm:mx-0 sm:px-0">
+            <TabsList className="inline-flex h-auto p-1 bg-muted/30 backdrop-blur-sm rounded-xl border border-border/20 shadow-sm min-w-max">
               {categories.map((category) => (
                 <TabsTrigger
                   key={category}
                   value={category}
                   className={`
-                    px-5 py-2.5 text-sm font-sans font-medium rounded-lg whitespace-nowrap
+                    px-3 sm:px-5 py-2.5 text-xs sm:text-sm font-sans font-medium rounded-lg whitespace-nowrap
                     transition-all duration-300 ease-in-out transform
                     hover:bg-primary/10 hover:text-foreground
                     data-[state=active]:bg-white data-[state=active]:text-primary
@@ -1042,7 +1043,7 @@ export default function GallerySection() {
               </div>
             ) : (
               <div className="space-y-8">
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
                   {visiblePhotos.map((photo) => (
                     <Dialog key={photo.id}>
                       <DialogTrigger asChild>
@@ -1054,6 +1055,7 @@ export default function GallerySection() {
                               className={`w-full h-full transition-transform duration-500 group-hover:scale-110 ${photo.rotation ? 'object-contain' : 'object-cover'}`}
                               style={photo.rotation ? { transform: `rotate(${photo.rotation}deg)` } : undefined}
                               loading="lazy"
+                              referrerPolicy="no-referrer"
                               onError={(e) => {
                                 console.error('Failed to load image:', photo.src);
                               }}
@@ -1068,16 +1070,18 @@ export default function GallerySection() {
                           </div>
                         </Card>
                       </DialogTrigger>
-                      <DialogContent className="max-w-6xl w-full p-0 gap-0 bg-background">
-                        <div className="relative w-full min-h-[400px] max-h-[85vh] flex items-center justify-center bg-black/5 dark:bg-black/20">
+                      <DialogContent className="max-w-[95vw] sm:max-w-3xl lg:max-w-6xl w-full p-0 gap-0 bg-background">
+                        <DialogTitle className="sr-only">{photo.title}</DialogTitle>
+                        <div className="relative w-full min-h-[250px] sm:min-h-[400px] max-h-[85vh] flex items-center justify-center bg-black/5 dark:bg-black/20">
                           <img
                             src={convertGoogleDriveLink(photo.src)}
                             alt={photo.title}
                             className="max-w-full max-h-[85vh] w-auto h-auto object-contain rounded-t-lg"
+                            referrerPolicy="no-referrer"
                             style={photo.rotation ? { transform: `rotate(${photo.rotation}deg)` } : undefined}
                           />
                         </div>
-                        <div className="p-6 space-y-4">
+                        <div className="p-4 sm:p-6 space-y-4">
                           <div>
                             <h3 className="text-xl font-semibold">{photo.title}</h3>
                             <p className="text-sm text-muted-foreground">{photo.category}</p>
@@ -1095,7 +1099,7 @@ export default function GallerySection() {
                     </div>
                   )}
                 </div>
-                
+
                 {hasMore && (
                   <div className="flex justify-center">
                     <button

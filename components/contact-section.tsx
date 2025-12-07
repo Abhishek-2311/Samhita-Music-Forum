@@ -16,14 +16,14 @@ export default function ContactSection() {
 
   const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyN6HxWKV_xJeprjCgptSq7IKzmo1QGd3UcCh6Lmi42-5z3WzXIinm9fOdQqUv6VWA/exec'
 
-  const handleChange = (e: any) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     })
   }
 
-  const handleSubmit = async (e: any) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setIsSubmitting(true)
     setSubmitStatus('idle')
@@ -64,6 +64,11 @@ export default function ContactSection() {
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-balance">
               Start Your Musical Journey
             </h2>
+            <div className="flex items-center justify-center gap-2 mx-auto w-32 my-4">
+              <div className="w-3 h-3 rounded-full bg-amber-500"></div>
+              <div className="flex-1 h-1 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-300 rounded-full"></div>
+              <div className="w-3 h-3 rounded-full bg-amber-500"></div>
+            </div>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Register now to begin your Hindustani classical music training with our master musicians
             </p>
@@ -171,7 +176,7 @@ export default function ContactSection() {
                       value={formData.firstName}
                       onChange={handleChange}
                       disabled={isSubmitting}
-                      className="w-full px-4 py-3 rounded-lg border-2 border-primary/20 bg-background/50 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all disabled:opacity-50"
+                      className="w-full px-4 py-3 rounded-lg border-2 border-primary/20 bg-background/50 text-foreground placeholder:text-gray-400 dark:placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all disabled:opacity-50"
                       placeholder="First Name"
                       required
                     />
@@ -187,7 +192,7 @@ export default function ContactSection() {
                       value={formData.lastName}
                       onChange={handleChange}
                       disabled={isSubmitting}
-                      className="w-full px-4 py-3 rounded-lg border-2 border-primary/20 bg-background/50 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all disabled:opacity-50"
+                      className="w-full px-4 py-3 rounded-lg border-2 border-primary/20 bg-background/50 text-foreground placeholder:text-gray-400 dark:placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all disabled:opacity-50"
                       placeholder="Last Name"
                       required
                     />
@@ -205,7 +210,7 @@ export default function ContactSection() {
                     value={formData.email}
                     onChange={handleChange}
                     disabled={isSubmitting}
-                    className="w-full px-4 py-3 rounded-lg border-2 border-primary/20 bg-background/50 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all disabled:opacity-50"
+                    className="w-full px-4 py-3 rounded-lg border-2 border-primary/20 bg-background/50 text-foreground placeholder:text-gray-400 dark:placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all disabled:opacity-50"
                     placeholder="abc@example.com"
                     required
                   />
@@ -222,7 +227,7 @@ export default function ContactSection() {
                     value={formData.phone}
                     onChange={handleChange}
                     disabled={isSubmitting}
-                    className="w-full px-4 py-3 rounded-lg border-2 border-primary/20 bg-background/50 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all disabled:opacity-50"
+                    className="w-full px-4 py-3 rounded-lg border-2 border-primary/20 bg-background/50 text-foreground placeholder:text-gray-400 dark:placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all disabled:opacity-50"
                     placeholder="+91 XXXXX XXXXX"
                   />
                 </div>
@@ -237,7 +242,7 @@ export default function ContactSection() {
                     value={formData.message}
                     onChange={handleChange}
                     disabled={isSubmitting}
-                    className="w-full px-4 py-3 rounded-lg border-2 border-primary/20 bg-background/50 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all resize-none disabled:opacity-50"
+                    className="w-full px-4 py-3 rounded-lg border-2 border-primary/20 bg-background/50 text-foreground placeholder:text-gray-400 dark:placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all resize-none disabled:opacity-50"
                     placeholder="Which course interests you? (Tabla, Vocal, etc.)"
                     rows={4}
                     required
