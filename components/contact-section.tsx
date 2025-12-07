@@ -33,7 +33,7 @@ export default function ContactSection() {
       // with application/json content type. We send data as plain text (default) which is parsed by the script.
       await fetch(GOOGLE_SCRIPT_URL, {
         method: 'POST',
-        mode: 'no-cors', 
+        mode: 'no-cors',
         headers: {
           'Content-Type': 'application/json',
         },
@@ -43,7 +43,7 @@ export default function ContactSection() {
       // Since mode is no-cors, we can't check response.ok, so we assume success if no error is thrown
       setSubmitStatus('success')
       setFormData({ firstName: '', lastName: '', email: '', phone: '', message: '' })
-      
+
       // Reset success message after 5 seconds
       setTimeout(() => setSubmitStatus('idle'), 5000)
     } catch (error) {
