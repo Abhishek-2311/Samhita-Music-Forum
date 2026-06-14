@@ -1,4 +1,6 @@
 "use client"
+import { useState, useEffect } from "react"
+import NoticeBanner from "@/components/notice-banner"
 import Navigation from "@/components/navigation"
 import HeroSection from "@/components/hero-section"
 import AboutSection from "@/components/about-section"
@@ -15,9 +17,27 @@ import Footer from "@/components/footer"
 import ScrollToTop from "@/components/scroll-to-top"
 
 export default function MainApp() {
+  const [notice, setNotice] = useState<{ type: "text" | "image"; content: string } | null>(null);
+
+  useEffect(() => {
+    async function loadNotice() {
+      try {
+        const res = await fetch("/api/gallery");
+        if (!res.ok) throw new Error("API failed");
+        const data = await res.json();
+        if (data.notice) {
+          setNotice(data.notice);
+        }
+      } catch (err) {
+        console.error("Failed to load notice:", err);
+      }
+    }
+    loadNotice();
+  }, []);
   return (
     <div className="min-h-screen">
       <Navigation />
+      <NoticeBanner notice={notice} />
       <HeroSection />
       
       {/* About & Founder - Light neutral background */}

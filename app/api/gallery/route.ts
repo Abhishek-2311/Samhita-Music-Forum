@@ -63,11 +63,50 @@ export async function GET() {
   
   try {
     console.log(`Fetching categories from parent folder: ${parentFolderId}`);
-    const { folders: subfolders } = await scrapeFolder(parentFolderId);
+    const { folders: subfolders, files: parentFiles } = await scrapeFolder(parentFolderId);
+    
+    let notice = null;
+    const noticeFile = parentFiles.find(f => {
+      const nameLower = f.name.toLowerCase();
+      return nameLower === 'notice.txt' ||
+             nameLower === 'notice.jpg' ||
+             nameLower === 'notice.jpeg' ||
+             nameLower === 'notice.png' ||
+             nameLower === 'notice.webp';
+    });
+
+    if (noticeFile) {
+      const nameLower = noticeFile.name.toLowerCase();
+      if (nameLower.endsWith('.txt')) {
+        try {
+          const noticeRes = await fetch(`https://drive.google.com/uc?export=download&id=${noticeFile.id}`);
+          if (noticeRes.ok) {
+            const textContent = (await noticeRes.text()).trim();
+            if (textContent) {
+              notice = {
+                type: 'text',
+                content: textContent
+              };
+            }
+          }
+        } catch (err: any) {
+          console.error(`Failed to fetch notice text content: ${err.message}`);
+        }
+      } else {
+        // Image notice
+        notice = {
+          type: 'image',
+          content: `https://drive.google.com/thumbnail?id=${noticeFile.id}&sz=w1000`
+        };
+      }
+    }
     
     if (subfolders.length === 0) {
       console.log('No subfolders found in parent folder. Returning static manifest.');
-      return NextResponse.json(galleryManifest);
+      return NextResponse.json({
+        ...galleryManifest,
+        notice
+      });
     }
     
     // Fetch files from all subfolders in parallel
@@ -142,7 +181,8 @@ export async function GET() {
     
     const manifest = {
       singlePhotos,
-      conferencePhotos
+      conferencePhotos,
+      notice
     };
     
     // Return dynamically scraped manifest with Edge caching headers
