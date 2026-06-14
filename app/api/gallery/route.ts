@@ -53,11 +53,11 @@ async function scrapeFolder(folderId: string) {
 }
 
 export async function GET() {
-  const parentFolderId = process.env.NEXT_PUBLIC_GDRIVE_PARENT_FOLDER_ID;
+  const parentFolderId = process.env.GDRIVE_PARENT_ID || process.env.NEXT_PUBLIC_GDRIVE_PARENT_FOLDER_ID;
   
   // Fallback to static manifest if parent folder ID is not configured
   if (!parentFolderId) {
-    console.log('NEXT_PUBLIC_GDRIVE_PARENT_FOLDER_ID is not configured. Falling back to local manifest.');
+    console.log('Neither GDRIVE_PARENT_ID nor NEXT_PUBLIC_GDRIVE_PARENT_FOLDER_ID is configured. Falling back to local manifest.');
     return NextResponse.json(galleryManifest);
   }
   
