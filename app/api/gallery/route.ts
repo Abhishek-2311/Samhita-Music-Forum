@@ -179,6 +179,16 @@ export async function GET() {
     // Sort items so order is stable
     singlePhotos.sort((a, b) => a.id - b.id);
     
+    // If we successfully scanned GDrive but found absolutely no images,
+    // fallback to local manifest to avoid rendering a blank gallery.
+    if (singlePhotos.length === 0 && conferencePhotos.length === 0) {
+      console.log('Google Drive folder contains no images. Falling back to local manifest.');
+      return NextResponse.json({
+        ...galleryManifest,
+        notice
+      });
+    }
+
     const manifest = {
       singlePhotos,
       conferencePhotos,
