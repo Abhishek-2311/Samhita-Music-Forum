@@ -1,0 +1,1090 @@
+{
+  "singlePhotos": [
+    {
+      "id": 1,
+      "src": "/gallery/appreciations-by-neighbouring-institutions/1.jpg",
+      "title": "Appreciation Letter 1",
+      "category": "Appreciations by Neighbouring Institutions",
+      "rotation": 90
+    },
+    {
+      "id": 2,
+      "src": "/gallery/appreciations-by-neighbouring-institutions/2.jpg",
+      "title": "Appreciation Letter 2",
+      "category": "Appreciations by Neighbouring Institutions"
+    },
+    {
+      "id": 3,
+      "src": "/gallery/appreciations-by-neighbouring-institutions/3.jpg",
+      "title": "Appreciation Letter 3",
+      "category": "Appreciations by Neighbouring Institutions",
+      "rotation": 90
+    },
+    {
+      "id": 4,
+      "src": "/gallery/dashamanotsava-10th-annual-day/4.jpg",
+      "title": "Dashamanotsava Highlight 1",
+      "category": "Dashamanotsava (10th Annual Day)"
+    },
+    {
+      "id": 5,
+      "src": "/gallery/dashamanotsava-10th-annual-day/5.jpg",
+      "title": "Dashamanotsava Highlight 2",
+      "category": "Dashamanotsava (10th Annual Day)"
+    },
+    {
+      "id": 6,
+      "src": "/gallery/dashamanotsava-10th-annual-day/6.jpg",
+      "title": "Dashamanotsava Highlight 3",
+      "category": "Dashamanotsava (10th Annual Day)"
+    },
+    {
+      "id": 7,
+      "src": "/gallery/dashamanotsava-10th-annual-day/7.jpg",
+      "title": "Dashamanotsava Highlight 4",
+      "category": "Dashamanotsava (10th Annual Day)"
+    },
+    {
+      "id": 8,
+      "src": "/gallery/dashamanotsava-10th-annual-day/8.jpg",
+      "title": "Dashamanotsava Highlight 5",
+      "category": "Dashamanotsava (10th Annual Day)"
+    },
+    {
+      "id": 9,
+      "src": "/gallery/dashamanotsava-10th-annual-day/9.jpg",
+      "title": "Dashamanotsava Highlight 6",
+      "category": "Dashamanotsava (10th Annual Day)"
+    },
+    {
+      "id": 10,
+      "src": "/gallery/dashamanotsava-10th-annual-day/10.jpg",
+      "title": "Dashamanotsava Highlight 7",
+      "category": "Dashamanotsava (10th Annual Day)"
+    },
+    {
+      "id": 11,
+      "src": "/gallery/dashamanotsava-10th-annual-day/11.jpg",
+      "title": "Dashamanotsava Highlight 8",
+      "category": "Dashamanotsava (10th Annual Day)"
+    },
+    {
+      "id": 12,
+      "src": "/gallery/dashamanotsava-10th-annual-day/12.jpg",
+      "title": "Dashamanotsava Highlight 9",
+      "category": "Dashamanotsava (10th Annual Day)"
+    },
+    {
+      "id": 13,
+      "src": "/gallery/dashamanotsava-10th-annual-day/13.jpg",
+      "title": "Dashamanotsava Highlight 10",
+      "category": "Dashamanotsava (10th Annual Day)"
+    },
+    {
+      "id": 14,
+      "src": "/gallery/dashamanotsava-10th-annual-day/14.jpg",
+      "title": "Dashamanotsava Highlight 11",
+      "category": "Dashamanotsava (10th Annual Day)"
+    },
+    {
+      "id": 15,
+      "src": "/gallery/dashamanotsava-10th-annual-day/15.jpg",
+      "title": "Dashamanotsava Highlight 12",
+      "category": "Dashamanotsava (10th Annual Day)"
+    },
+    {
+      "id": 16,
+      "src": "/gallery/dashamanotsava-10th-annual-day/16.jpg",
+      "title": "Dashamanotsava Highlight 13",
+      "category": "Dashamanotsava (10th Annual Day)"
+    },
+    {
+      "id": 17,
+      "src": "/gallery/dashamanotsava-10th-annual-day/17.jpg",
+      "title": "Dashamanotsava Highlight 14",
+      "category": "Dashamanotsava (10th Annual Day)"
+    },
+    {
+      "id": 18,
+      "src": "/gallery/dashamanotsava-10th-annual-day/18.jpg",
+      "title": "Dashamanotsava Highlight 15",
+      "category": "Dashamanotsava (10th Annual Day)"
+    },
+    {
+      "id": 19,
+      "src": "/gallery/kala-gaurava/19.jpg",
+      "title": "Kala Gaurava Highlight 1",
+      "category": "Kala Gaurava"
+    },
+    {
+      "id": 20,
+      "src": "/gallery/kala-gaurava/20.jpg",
+      "title": "Kala Gaurava Highlight 2",
+      "category": "Kala Gaurava"
+    },
+    {
+      "id": 21,
+      "src": "/gallery/kala-gaurava/21.jpg",
+      "title": "Kala Gaurava Highlight 3",
+      "category": "Kala Gaurava"
+    },
+    {
+      "id": 22,
+      "src": "/gallery/kala-gaurava/22.jpg",
+      "title": "Kala Gaurava Highlight 4",
+      "category": "Kala Gaurava"
+    },
+    {
+      "id": 23,
+      "src": "/gallery/kala-gaurava/23.jpg",
+      "title": "Kala Gaurava Highlight 5",
+      "category": "Kala Gaurava"
+    },
+    {
+      "id": 24,
+      "src": "/gallery/kala-gaurava/24.jpg",
+      "title": "Kala Gaurava Highlight 6",
+      "category": "Kala Gaurava"
+    },
+    {
+      "id": 25,
+      "src": "/gallery/kala-gaurava/25.jpg",
+      "title": "Kala Gaurava Highlight 7",
+      "category": "Kala Gaurava"
+    },
+    {
+      "id": 26,
+      "src": "/gallery/kala-gaurava/26.jpg",
+      "title": "Kala Gaurava Highlight 8",
+      "category": "Kala Gaurava"
+    },
+    {
+      "id": 27,
+      "src": "/gallery/kala-gaurava/27.jpg",
+      "title": "Kala Gaurava Highlight 9",
+      "category": "Kala Gaurava"
+    },
+    {
+      "id": 28,
+      "src": "/gallery/kala-gaurava/28.jpg",
+      "title": "Kala Gaurava Highlight 10",
+      "category": "Kala Gaurava"
+    },
+    {
+      "id": 29,
+      "src": "/gallery/kala-gaurava/29.jpg",
+      "title": "Kala Gaurava Highlight 11",
+      "category": "Kala Gaurava"
+    },
+    {
+      "id": 30,
+      "src": "/gallery/kala-gaurava/30.jpg",
+      "title": "Kala Gaurava Highlight 12",
+      "category": "Kala Gaurava"
+    },
+    {
+      "id": 31,
+      "src": "/gallery/kala-gaurava/31.jpg",
+      "title": "Kala Gaurava Highlight 13",
+      "category": "Kala Gaurava"
+    },
+    {
+      "id": 32,
+      "src": "/gallery/media-reflections/32.jpg",
+      "title": "Media Reflection Highlight 1",
+      "category": "Media Reflections",
+      "rotation": 90
+    },
+    {
+      "id": 33,
+      "src": "/gallery/media-reflections/33.jpg",
+      "title": "Media Reflection Highlight 2",
+      "category": "Media Reflections",
+      "rotation": 90
+    },
+    {
+      "id": 34,
+      "src": "/gallery/media-reflections/34.jpg",
+      "title": "Media Reflection Highlight 3",
+      "category": "Media Reflections"
+    },
+    {
+      "id": 35,
+      "src": "/gallery/music-therapy/35.jpg",
+      "title": "Music Therapy Highlight 1",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 36,
+      "src": "/gallery/music-therapy/36.jpg",
+      "title": "Music Therapy Highlight 2",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 37,
+      "src": "/gallery/music-therapy/37.jpg",
+      "title": "Music Therapy Highlight 3",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 38,
+      "src": "/gallery/music-therapy/38.jpg",
+      "title": "Music Therapy Highlight 4",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 39,
+      "src": "/gallery/music-therapy/39.jpg",
+      "title": "Music Therapy Highlight 5",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 40,
+      "src": "/gallery/music-therapy/40.jpg",
+      "title": "Music Therapy Highlight 6",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 41,
+      "src": "/gallery/music-therapy/41.jpg",
+      "title": "Music Therapy Highlight 7",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 42,
+      "src": "/gallery/music-therapy/42.jpg",
+      "title": "Music Therapy Highlight 8",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 43,
+      "src": "/gallery/music-therapy/43.jpg",
+      "title": "Music Therapy Highlight 9",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 44,
+      "src": "/gallery/music-therapy/44.jpg",
+      "title": "Music Therapy Highlight 10",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 45,
+      "src": "/gallery/music-therapy/45.jpg",
+      "title": "Music Therapy Highlight 11",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 46,
+      "src": "/gallery/music-therapy/46.jpg",
+      "title": "Music Therapy Highlight 12",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 47,
+      "src": "/gallery/music-therapy/47.jpg",
+      "title": "Music Therapy Highlight 13",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 48,
+      "src": "/gallery/music-therapy/48.jpg",
+      "title": "Music Therapy Highlight 14",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 49,
+      "src": "/gallery/music-therapy/49.jpg",
+      "title": "Music Therapy Highlight 15",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 50,
+      "src": "/gallery/music-therapy/50.jpg",
+      "title": "Music Therapy Highlight 16",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 51,
+      "src": "/gallery/music-therapy/51.jpg",
+      "title": "Music Therapy Highlight 17",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 52,
+      "src": "/gallery/music-therapy/52.jpg",
+      "title": "Music Therapy Highlight 18",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 53,
+      "src": "/gallery/music-therapy/53.jpg",
+      "title": "Music Therapy Highlight 19",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 54,
+      "src": "/gallery/music-therapy/54.jpg",
+      "title": "Music Therapy Highlight 20",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 55,
+      "src": "/gallery/music-therapy/55.jpg",
+      "title": "Music Therapy Highlight 21",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 56,
+      "src": "/gallery/music-therapy/56.jpg",
+      "title": "Music Therapy Highlight 22",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 57,
+      "src": "/gallery/music-therapy/57.jpg",
+      "title": "Music Therapy Highlight 23",
+      "category": "Music Therapy"
+    },
+    {
+      "id": 58,
+      "src": "/gallery/special-memories/58.jpg",
+      "title": "Special Memory 1",
+      "category": "Special Memories"
+    },
+    {
+      "id": 59,
+      "src": "/gallery/special-memories/59.jpg",
+      "title": "Special Memory 2",
+      "category": "Special Memories"
+    },
+    {
+      "id": 60,
+      "src": "/gallery/special-memories/60.jpg",
+      "title": "Special Memory 3",
+      "category": "Special Memories"
+    },
+    {
+      "id": 61,
+      "src": "/gallery/special-memories/61.jpg",
+      "title": "Special Memory 4",
+      "category": "Special Memories"
+    },
+    {
+      "id": 62,
+      "src": "/gallery/special-memories/62.jpg",
+      "title": "Special Memory 5",
+      "category": "Special Memories"
+    },
+    {
+      "id": 63,
+      "src": "/gallery/special-memories/63.jpg",
+      "title": "Special Memory 6",
+      "category": "Special Memories"
+    },
+    {
+      "id": 64,
+      "src": "/gallery/special-memories/64.jpg",
+      "title": "Special Memory 7",
+      "category": "Special Memories"
+    },
+    {
+      "id": 65,
+      "src": "/gallery/bytak/65.jpg",
+      "title": "Bytak Image 1",
+      "category": "Bytak"
+    },
+    {
+      "id": 66,
+      "src": "/gallery/bytak/66.jpg",
+      "title": "Bytak Image 2",
+      "category": "Bytak"
+    },
+    {
+      "id": 67,
+      "src": "/gallery/bytak/67.jpg",
+      "title": "Bytak Image 3",
+      "category": "Bytak"
+    },
+    {
+      "id": 68,
+      "src": "/gallery/bytak/68.jpg",
+      "title": "Bytak Image 4",
+      "category": "Bytak"
+    },
+    {
+      "id": 69,
+      "src": "/gallery/bytak/69.jpg",
+      "title": "Bytak Image 5",
+      "category": "Bytak"
+    },
+    {
+      "id": 70,
+      "src": "/gallery/bytak/70.jpg",
+      "title": "Bytak Image 6",
+      "category": "Bytak"
+    },
+    {
+      "id": 71,
+      "src": "/gallery/bytak/71.jpg",
+      "title": "Bytak Image 7",
+      "category": "Bytak"
+    },
+    {
+      "id": 72,
+      "src": "/gallery/bytak/72.jpg",
+      "title": "Bytak Image 8",
+      "category": "Bytak"
+    },
+    {
+      "id": 73,
+      "src": "/gallery/bytak/73.jpg",
+      "title": "Bytak Image 9",
+      "category": "Bytak"
+    },
+    {
+      "id": 74,
+      "src": "/gallery/bytak/74.jpg",
+      "title": "Bytak Image 10",
+      "category": "Bytak"
+    },
+    {
+      "id": 75,
+      "src": "/gallery/bytak/75.jpg",
+      "title": "Bytak Image 11",
+      "category": "Bytak"
+    },
+    {
+      "id": 76,
+      "src": "/gallery/bytak/76.jpg",
+      "title": "Bytak Image 12",
+      "category": "Bytak"
+    },
+    {
+      "id": 77,
+      "src": "/gallery/bytak/77.jpg",
+      "title": "Bytak Image 13",
+      "category": "Bytak"
+    },
+    {
+      "id": 78,
+      "src": "/gallery/bytak/78.jpg",
+      "title": "Bytak Image 14",
+      "category": "Bytak"
+    },
+    {
+      "id": 79,
+      "src": "/gallery/bytak/79.jpg",
+      "title": "Bytak Image 15",
+      "category": "Bytak"
+    },
+    {
+      "id": 80,
+      "src": "/gallery/bytak/80.jpg",
+      "title": "Bytak Image 16",
+      "category": "Bytak"
+    },
+    {
+      "id": 81,
+      "src": "/gallery/bytak/81.jpg",
+      "title": "Bytak Image 17",
+      "category": "Bytak"
+    },
+    {
+      "id": 82,
+      "src": "/gallery/bytak/82.jpg",
+      "title": "Bytak Image 18",
+      "category": "Bytak"
+    },
+    {
+      "id": 83,
+      "src": "/gallery/bytak/83.jpg",
+      "title": "Bytak Image 19",
+      "category": "Bytak"
+    },
+    {
+      "id": 84,
+      "src": "/gallery/bytak/84.jpg",
+      "title": "Bytak Image 20",
+      "category": "Bytak"
+    },
+    {
+      "id": 85,
+      "src": "/gallery/bytak/85.jpg",
+      "title": "Bytak Image 21",
+      "category": "Bytak"
+    },
+    {
+      "id": 86,
+      "src": "/gallery/bytak/86.jpg",
+      "title": "Bytak Image 22",
+      "category": "Bytak"
+    },
+    {
+      "id": 87,
+      "src": "/gallery/bytak/87.jpg",
+      "title": "Bytak Image 23",
+      "category": "Bytak"
+    },
+    {
+      "id": 88,
+      "src": "/gallery/bytak/88.jpg",
+      "title": "Bytak Image 24",
+      "category": "Bytak"
+    },
+    {
+      "id": 89,
+      "src": "/gallery/bytak/89.jpg",
+      "title": "Bytak Image 25",
+      "category": "Bytak"
+    },
+    {
+      "id": 90,
+      "src": "/gallery/bytak/90.jpg",
+      "title": "Bytak Image 26",
+      "category": "Bytak"
+    },
+    {
+      "id": 91,
+      "src": "/gallery/bytak/91.jpg",
+      "title": "Bytak Image 27",
+      "category": "Bytak"
+    },
+    {
+      "id": 92,
+      "src": "/gallery/bytak/92.jpg",
+      "title": "Bytak Image 28",
+      "category": "Bytak"
+    },
+    {
+      "id": 93,
+      "src": "/gallery/bytak/93.jpg",
+      "title": "Bytak Image 29",
+      "category": "Bytak"
+    },
+    {
+      "id": 94,
+      "src": "/gallery/bytak/94.jpg",
+      "title": "Bytak Image 30",
+      "category": "Bytak"
+    },
+    {
+      "id": 95,
+      "src": "/gallery/bytak/95.jpg",
+      "title": "Bytak Image 31",
+      "category": "Bytak"
+    },
+    {
+      "id": 96,
+      "src": "/gallery/bytak/96.jpg",
+      "title": "Bytak Image 32",
+      "category": "Bytak"
+    },
+    {
+      "id": 97,
+      "src": "/gallery/bytak/97.jpg",
+      "title": "Bytak Image 33",
+      "category": "Bytak"
+    },
+    {
+      "id": 98,
+      "src": "/gallery/bytak/98.jpg",
+      "title": "Bytak Image 34",
+      "category": "Bytak"
+    },
+    {
+      "id": 99,
+      "src": "/gallery/bytak/99.jpg",
+      "title": "Bytak Image 35",
+      "category": "Bytak"
+    },
+    {
+      "id": 100,
+      "src": "/gallery/bytak/100.jpg",
+      "title": "Bytak Image 36",
+      "category": "Bytak"
+    },
+    {
+      "id": 101,
+      "src": "/gallery/bytak/101.jpg",
+      "title": "Bytak Image 37",
+      "category": "Bytak"
+    },
+    {
+      "id": 102,
+      "src": "/gallery/bytak/102.jpg",
+      "title": "Bytak Image 38",
+      "category": "Bytak"
+    },
+    {
+      "id": 103,
+      "src": "/gallery/bytak/103.jpg",
+      "title": "Bytak Image 39",
+      "category": "Bytak"
+    },
+    {
+      "id": 104,
+      "src": "/gallery/bytak/104.jpg",
+      "title": "Bytak Image 40",
+      "category": "Bytak"
+    },
+    {
+      "id": 105,
+      "src": "/gallery/bytak/105.jpg",
+      "title": "Bytak Image 41",
+      "category": "Bytak"
+    },
+    {
+      "id": 106,
+      "src": "/gallery/bytak/106.jpg",
+      "title": "Bytak Image 42",
+      "category": "Bytak"
+    },
+    {
+      "id": 107,
+      "src": "/gallery/bytak/107.jpg",
+      "title": "Bytak Image 43",
+      "category": "Bytak"
+    },
+    {
+      "id": 108,
+      "src": "/gallery/bytak/108.jpg",
+      "title": "Bytak Image 44",
+      "category": "Bytak"
+    },
+    {
+      "id": 109,
+      "src": "/gallery/bytak/109.jpg",
+      "title": "Bytak Image 45",
+      "category": "Bytak"
+    },
+    {
+      "id": 110,
+      "src": "/gallery/bytak/110.jpg",
+      "title": "Bytak Image 46",
+      "category": "Bytak"
+    },
+    {
+      "id": 111,
+      "src": "/gallery/bytak/111.jpg",
+      "title": "Bytak Image 47",
+      "category": "Bytak"
+    },
+    {
+      "id": 112,
+      "src": "/gallery/bytak/112.jpg",
+      "title": "Bytak Image 48",
+      "category": "Bytak"
+    },
+    {
+      "id": 113,
+      "src": "/gallery/bytak/113.jpg",
+      "title": "Bytak Image 49",
+      "category": "Bytak"
+    },
+    {
+      "id": 114,
+      "src": "/gallery/bytak/114.jpg",
+      "title": "Bytak Image 50",
+      "category": "Bytak"
+    },
+    {
+      "id": 115,
+      "src": "/gallery/bytak/115.jpg",
+      "title": "Bytak Image 51",
+      "category": "Bytak"
+    },
+    {
+      "id": 116,
+      "src": "/gallery/bytak/116.jpg",
+      "title": "Bytak Image 52",
+      "category": "Bytak"
+    },
+    {
+      "id": 117,
+      "src": "/gallery/bytak/117.jpg",
+      "title": "Bytak Image 53",
+      "category": "Bytak"
+    },
+    {
+      "id": 118,
+      "src": "/gallery/bytak/118.jpg",
+      "title": "Bytak Image 54",
+      "category": "Bytak"
+    },
+    {
+      "id": 119,
+      "src": "/gallery/bytak/119.jpg",
+      "title": "Bytak Image 55",
+      "category": "Bytak"
+    },
+    {
+      "id": 120,
+      "src": "/gallery/bytak/120.jpg",
+      "title": "Bytak Image 56",
+      "category": "Bytak"
+    },
+    {
+      "id": 121,
+      "src": "/gallery/bytak/121.jpg",
+      "title": "Bytak Image 57",
+      "category": "Bytak"
+    },
+    {
+      "id": 122,
+      "src": "/gallery/bytak/122.jpg",
+      "title": "Bytak Image 58",
+      "category": "Bytak"
+    },
+    {
+      "id": 123,
+      "src": "/gallery/bytak/123.jpg",
+      "title": "Bytak Image 59",
+      "category": "Bytak"
+    },
+    {
+      "id": 124,
+      "src": "/gallery/bytak/124.jpg",
+      "title": "Bytak Image 60",
+      "category": "Bytak"
+    },
+    {
+      "id": 125,
+      "src": "/gallery/bytak/125.jpg",
+      "title": "Bytak Image 61",
+      "category": "Bytak"
+    },
+    {
+      "id": 126,
+      "src": "/gallery/bytak/126.jpg",
+      "title": "Bytak Image 62",
+      "category": "Bytak"
+    },
+    {
+      "id": 127,
+      "src": "/gallery/bytak/127.jpg",
+      "title": "Bytak Image 63",
+      "category": "Bytak"
+    },
+    {
+      "id": 128,
+      "src": "/gallery/bytak/128.jpg",
+      "title": "Bytak Image 64",
+      "category": "Bytak"
+    },
+    {
+      "id": 129,
+      "src": "/gallery/bytak/129.jpg",
+      "title": "Bytak Image 65",
+      "category": "Bytak"
+    },
+    {
+      "id": 130,
+      "src": "/gallery/bytak/130.jpg",
+      "title": "Bytak Image 66",
+      "category": "Bytak"
+    },
+    {
+      "id": 131,
+      "src": "/gallery/bytak/131.jpg",
+      "title": "Bytak Image 67",
+      "category": "Bytak"
+    },
+    {
+      "id": 132,
+      "src": "/gallery/bytak/132.jpg",
+      "title": "Bytak Image 68",
+      "category": "Bytak"
+    }
+  ],
+  "conferencePhotos": [
+    {
+      "id": "conf-2012-10_jvT4Sr9HiYAdHqgjDdKcM8MG_dT1-0",
+      "src": "/gallery/annual-conference-nov-2012/10_jvT4Sr9HiYAdHqgjDdKcM8MG_dT1-0.jpg",
+      "title": "SITAR RECITAL BY Vid. ANUPAMA BHAGWAT",
+      "category": "Annual Conference Nov 2012",
+      "year": "2012",
+      "month": "Nov"
+    },
+    {
+      "id": "conf-2012-10dAPgv0PXkh_k_eBKA-Imkb3Bd_m8Cxj",
+      "src": "/gallery/annual-conference-nov-2012/10dAPgv0PXkh_k_eBKA-Imkb3Bd_m8Cxj.jpg",
+      "title": "TABLA SOLO BY SHRI SHESHADRI IYYENGAR",
+      "category": "Annual Conference Nov 2012",
+      "year": "2012",
+      "month": "Nov"
+    },
+    {
+      "id": "conf-2021-1-N4VXvwUyig0bP5rrhZ7mF_Jxo0aEerJ",
+      "src": "/gallery/annual-conference-dec-2021/1-N4VXvwUyig0bP5rrhZ7mF_Jxo0aEerJ.jpg",
+      "title": "FUSION BY STUDENTS",
+      "category": "Annual Conference Dec 2021",
+      "year": "2021",
+      "month": "Dec"
+    },
+    {
+      "id": "conf-2021-1-KiY1_SnPTrM4LhgHiNLii7rmlggWx3m",
+      "src": "/gallery/annual-conference-dec-2021/1-KiY1_SnPTrM4LhgHiNLii7rmlggWx3m.jpg",
+      "title": "TABLA JUGALBANDI BY SHRI ANANT HEGDE AND SHRI SHESHADRI IYYENGAR",
+      "category": "Annual Conference Dec 2021",
+      "year": "2021",
+      "month": "Dec"
+    },
+    {
+      "id": "conf-2021-1-NMqT8GbIuFpIWLjUaehM9xw7211j0kX",
+      "src": "/gallery/annual-conference-dec-2021/1-NMqT8GbIuFpIWLjUaehM9xw7211j0kX.jpg",
+      "title": "VOCAL BY Pt. M.P.HEGDE",
+      "category": "Annual Conference Dec 2021",
+      "year": "2021",
+      "month": "Dec"
+    },
+    {
+      "id": "conf-2021-1-Ls3OdHsJEJlonAGGrjr4Ni8RAtbUn-h",
+      "src": "/gallery/annual-conference-dec-2021/1-Ls3OdHsJEJlonAGGrjr4Ni8RAtbUn-h.jpg",
+      "title": "VOCAL RECITAL BY Vid. Smt. POORNIMA BHAT(KULKARNI)",
+      "category": "Annual Conference Dec 2021",
+      "year": "2021",
+      "month": "Dec"
+    },
+    {
+      "id": "conf-2016-106F0PFFmi_sM168hGeMCaCY3gu8XOPBJ",
+      "src": "/gallery/annual-conference-nov-2016/106F0PFFmi_sM168hGeMCaCY3gu8XOPBJ.jpg",
+      "title": "FLUTE RECITAL BY SHRI PRAKASH HEGDE",
+      "category": "Annual Conference Nov 2016",
+      "year": "2016",
+      "month": "Nov"
+    },
+    {
+      "id": "conf-2016-10LRs92jW4ANNtGYw4--Jxfo8PXsYkYN7",
+      "src": "/gallery/annual-conference-nov-2016/10LRs92jW4ANNtGYw4--Jxfo8PXsYkYN7.jpg",
+      "title": "TABALA SOLO BY SHRI AMIT MISHRA",
+      "category": "Annual Conference Nov 2016",
+      "year": "2016",
+      "month": "Nov"
+    },
+    {
+      "id": "conf-2023-11Mg3qpirHm46m6gpRsvYfZYloQpAsq36",
+      "src": "/gallery/annual-conference-jan-2023/11Mg3qpirHm46m6gpRsvYfZYloQpAsq36.jpg",
+      "title": "Dr. Yuvaraj And Manjula",
+      "category": "Annual Conference Jan 2023",
+      "year": "2023",
+      "month": "Jan"
+    },
+    {
+      "id": "conf-2023-11LZJxXRXjBmJnDU3GYqkP-W7pkoTX-14",
+      "src": "/gallery/annual-conference-jan-2023/11LZJxXRXjBmJnDU3GYqkP-W7pkoTX-14.jpg",
+      "title": "FELICITATION-2",
+      "category": "Annual Conference Jan 2023",
+      "year": "2023",
+      "month": "Jan"
+    },
+    {
+      "id": "conf-2023-11ICLnP8Rv3w0P_tUhWBTaBiG8fp6bRlQ",
+      "src": "/gallery/annual-conference-jan-2023/11ICLnP8Rv3w0P_tUhWBTaBiG8fp6bRlQ.jpg",
+      "title": "FELICITATION",
+      "category": "Annual Conference Jan 2023",
+      "year": "2023",
+      "month": "Jan"
+    },
+    {
+      "id": "conf-2023-11dQQ_nlIGfsM3isVnDgVGkcosYr0Myme",
+      "src": "/gallery/annual-conference-jan-2023/11dQQ_nlIGfsM3isVnDgVGkcosYr0Myme.jpg",
+      "title": "MINDBLOWING PERFORMANCES    Fully packed auditorium with music lovers",
+      "category": "Annual Conference Jan 2023",
+      "year": "2023",
+      "month": "Jan"
+    },
+    {
+      "id": "conf-2023-11RjA76fteWCvipt7WX7bq8kQ0LXEMp8E",
+      "src": "/gallery/annual-conference-jan-2023/11RjA76fteWCvipt7WX7bq8kQ0LXEMp8E.jpg",
+      "title": "Shri Ramakrishna Bilgikar and Prof. Shambu Bhat",
+      "category": "Annual Conference Jan 2023",
+      "year": "2023",
+      "month": "Jan"
+    },
+    {
+      "id": "conf-2023-11Wh1wJaKrz6JMmdMjijNjAA6I7EPWkSQ",
+      "src": "/gallery/annual-conference-jan-2023/11Wh1wJaKrz6JMmdMjijNjAA6I7EPWkSQ.jpg",
+      "title": "Tabla Solo by Pt. Nayan Ghosh",
+      "category": "Annual Conference Jan 2023",
+      "year": "2023",
+      "month": "Jan"
+    },
+    {
+      "id": "conf-2023-11Yn5JYNUZQq3f1uSHol5DOk1XQVzfeSD",
+      "src": "/gallery/annual-conference-jan-2023/11Yn5JYNUZQq3f1uSHol5DOk1XQVzfeSD.jpg",
+      "title": "Vocal Concert by Pt. Venkatesh Kumar",
+      "category": "Annual Conference Jan 2023",
+      "year": "2023",
+      "month": "Jan"
+    },
+    {
+      "id": "conf-2015-1-bC3PDlblrSX2RjuqKKEcbu_ujYZ6vq2",
+      "src": "/gallery/annual-conference-nov-2015/1-bC3PDlblrSX2RjuqKKEcbu_ujYZ6vq2.jpg",
+      "title": "FLUTE RECITAL BY SHRI KIRAN HEGDE",
+      "category": "Annual Conference Nov 2015",
+      "year": "2015",
+      "month": "Nov"
+    },
+    {
+      "id": "conf-2015-1-Xfqkg6jTCRaJfktgleSPboBg2ioqm17",
+      "src": "/gallery/annual-conference-nov-2015/1-Xfqkg6jTCRaJfktgleSPboBg2ioqm17.jpg",
+      "title": "TABLA SOLO BY SHRI GURUMOORTI VAIDYA",
+      "category": "Annual Conference Nov 2015",
+      "year": "2015",
+      "month": "Nov"
+    },
+    {
+      "id": "conf-2011-11nH6zPUB_pPtHEAvOYdqbDtGaGesd44N",
+      "src": "/gallery/annual-conference-dec-2011/11nH6zPUB_pPtHEAvOYdqbDtGaGesd44N.jpg",
+      "title": "Pt. Raghunath Nakod and Vid. Smt. Renuka Nakod Vocal",
+      "category": "Annual Conference Dec 2011",
+      "year": "2011",
+      "month": "Dec"
+    },
+    {
+      "id": "conf-2011-11mRt1O9oK4J0q-7aWg3fuIU85AhjO8YG",
+      "src": "/gallery/annual-conference-dec-2011/11mRt1O9oK4J0q-7aWg3fuIU85AhjO8YG.jpg",
+      "title": "Vocal by Pt. Ganapati Bhat Hasanagi",
+      "category": "Annual Conference Dec 2011",
+      "year": "2011",
+      "month": "Dec"
+    },
+    {
+      "id": "conf-2014-10UgnBLrAgmtPRRpbiWRAIqh_CuUrISVA",
+      "src": "/gallery/annual-conference-oct-2014/10UgnBLrAgmtPRRpbiWRAIqh_CuUrISVA.jpg",
+      "title": "TABLA SOLO BY SHRI RAJENDRA NAKOD",
+      "category": "Annual Conference Oct 2014",
+      "year": "2014",
+      "month": "Oct"
+    },
+    {
+      "id": "conf-2014-10PUzpXj1RTKYEcVEgt26iPfpdpdcgipP",
+      "src": "/gallery/annual-conference-oct-2014/10PUzpXj1RTKYEcVEgt26iPfpdpdcgipP.jpg",
+      "title": "VOCAL BY SHRI KOUSHIK AITAL",
+      "category": "Annual Conference Oct 2014",
+      "year": "2014",
+      "month": "Oct"
+    },
+    {
+      "id": "conf-2017-10mTsw5LXKq0zjGu1vDk3DQVXHShSSwC6",
+      "src": "/gallery/annual-conference-nov-2017/10mTsw5LXKq0zjGu1vDk3DQVXHShSSwC6.jpg",
+      "title": "TABLA SOLO BY SHRI VINAYAK NAIK",
+      "category": "Annual Conference Nov 2017",
+      "year": "2017",
+      "month": "Nov"
+    },
+    {
+      "id": "conf-2017-10lQrQYE9c40ESLROlwGzgxR-SScz8vJH",
+      "src": "/gallery/annual-conference-nov-2017/10lQrQYE9c40ESLROlwGzgxR-SScz8vJH.jpg",
+      "title": "VOCAL BY SHRI MAHESH KULKARNI",
+      "category": "Annual Conference Nov 2017",
+      "year": "2017",
+      "month": "Nov"
+    },
+    {
+      "id": "conf-2018-1130FNmu6vSvPbYbfqBqQ2DcrgTlo8wqJ",
+      "src": "/gallery/annual-conference-nov-2018/1130FNmu6vSvPbYbfqBqQ2DcrgTlo8wqJ.jpg",
+      "title": "SITAR RECITAL BY Pt.SHRINIVAS JOSHI",
+      "category": "Annual Conference Nov 2018",
+      "year": "2018",
+      "month": "Nov"
+    },
+    {
+      "id": "conf-2018-11ARH3Ls8F6nHrTAa9sVcAUDy3sEl08MA",
+      "src": "/gallery/annual-conference-nov-2018/11ARH3Ls8F6nHrTAa9sVcAUDy3sEl08MA.jpg",
+      "title": "TABLA SOLO BY SHRI AMOD DANDGE",
+      "category": "Annual Conference Nov 2018",
+      "year": "2018",
+      "month": "Nov"
+    },
+    {
+      "id": "conf-2021-101yEi_O3SFlxZXz3n-Mx6qv11zudRCKs",
+      "src": "/gallery/annual-conference-feb-2021/101yEi_O3SFlxZXz3n-Mx6qv11zudRCKs.jpg",
+      "title": "TABLA SOLO BY Pt. RAMDAS PALSULE",
+      "category": "Annual Conference Feb 2021",
+      "year": "2021",
+      "month": "Feb"
+    },
+    {
+      "id": "conf-2021-1-tysl14rJ6a3djfK9qFJOBZ5NABBb8eY",
+      "src": "/gallery/annual-conference-feb-2021/1-tysl14rJ6a3djfK9qFJOBZ5NABBb8eY.jpg",
+      "title": "VOCAL BY SHRI VINAYAK HEGDE",
+      "category": "Annual Conference Feb 2021",
+      "year": "2021",
+      "month": "Feb"
+    },
+    {
+      "id": "conf-2013-11ymrsZ8EfcIihlbUIkygfmlnyiOLOGJH",
+      "src": "/gallery/annual-conference-oct-2013/11ymrsZ8EfcIihlbUIkygfmlnyiOLOGJH.jpg",
+      "title": "Deepa Prajwalana",
+      "category": "Annual Conference Oct 2013",
+      "year": "2013",
+      "month": "Oct"
+    },
+    {
+      "id": "conf-2013-12-GnnHqnjTZg_kn5Jmw1gAX7CQOCtuGy",
+      "src": "/gallery/annual-conference-oct-2013/12-GnnHqnjTZg_kn5Jmw1gAX7CQOCtuGy.jpg",
+      "title": "Pt. MP Hegde Padigere",
+      "category": "Annual Conference Oct 2013",
+      "year": "2013",
+      "month": "Oct"
+    },
+    {
+      "id": "conf-2013-128poaENwOWmLtwg2wfi3rgBSyo6IloND",
+      "src": "/gallery/annual-conference-oct-2013/128poaENwOWmLtwg2wfi3rgBSyo6IloND.jpg",
+      "title": "Santoor Recital by Shri. Shreedhar Hegde",
+      "category": "Annual Conference Oct 2013",
+      "year": "2013",
+      "month": "Oct"
+    },
+    {
+      "id": "conf-2013-121_ahdnO4lZ25QnPmqdl9VEkmNcPuHwr",
+      "src": "/gallery/annual-conference-oct-2013/121_ahdnO4lZ25QnPmqdl9VEkmNcPuHwr.jpg",
+      "title": "Tabla Ensemble by Vid. Shri Anant hegde and students",
+      "category": "Annual Conference Oct 2013",
+      "year": "2013",
+      "month": "Oct"
+    },
+    {
+      "id": "conf-2010-1-gHBJlUoJ4dPXMvZMjKqIhFwmc3bPHAW",
+      "src": "/gallery/annual-conference-oct-2010/1-gHBJlUoJ4dPXMvZMjKqIhFwmc3bPHAW.jpg",
+      "title": "TABALA JUGALBANDI BY Pt. RAGHUNATH NAKOD AND DR. RAVIKIRAN NAKOD",
+      "category": "Annual Conference Oct 2010",
+      "year": "2010",
+      "month": "Oct"
+    },
+    {
+      "id": "conf-2010-1-hGW2IwVzyh9MYdkCY7jAmoWU-69nL5K",
+      "src": "/gallery/annual-conference-oct-2010/1-hGW2IwVzyh9MYdkCY7jAmoWU-69nL5K.jpg",
+      "title": "VOCAL BY  Vid. Smt. RENUKA NAKOD",
+      "category": "Annual Conference Oct 2010",
+      "year": "2010",
+      "month": "Oct"
+    },
+    {
+      "id": "conf-2020-11g9B2AZhINdjcxW3GHNltsOFgiGr3BXg",
+      "src": "/gallery/annual-conference-2020/11g9B2AZhINdjcxW3GHNltsOFgiGr3BXg.jpg",
+      "title": "Performance by Young Artists - 2",
+      "category": "Annual Conference 2020",
+      "year": "2020",
+      "month": ""
+    },
+    {
+      "id": "conf-2020-11fnOZx1QXt0JqFu2tOAScR8j7NXTibgy",
+      "src": "/gallery/annual-conference-2020/11fnOZx1QXt0JqFu2tOAScR8j7NXTibgy.jpg",
+      "title": "Performance by Young Artists-1",
+      "category": "Annual Conference 2020",
+      "year": "2020",
+      "month": ""
+    },
+    {
+      "id": "conf-2020-11hqM5TDO2e5HYnw_BKjEXIvqzn-GQQxZ",
+      "src": "/gallery/annual-conference-2020/11hqM5TDO2e5HYnw_BKjEXIvqzn-GQQxZ.jpg",
+      "title": "Students Performance",
+      "category": "Annual Conference 2020",
+      "year": "2020",
+      "month": ""
+    }
+  ]
+}
