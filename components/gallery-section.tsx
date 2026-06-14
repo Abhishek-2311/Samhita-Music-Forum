@@ -128,7 +128,7 @@ export default function GallerySection() {
   const categories = getCategories(photos)
 
   // Add Annual Conference Photos category if we have folders
-  if (annualConferenceFolders.length > 0 && !categories.includes('Annual Conference Photos')) {
+  if (confPhotos.length > 0 && !categories.includes('Annual Conference Photos')) {
     categories.push('Annual Conference Photos')
     categories.sort()
   }
@@ -150,7 +150,7 @@ export default function GallerySection() {
   // Check if we should show folder embed for Annual Conference Photos
   const showAnnualConferenceFolders =
     selectedCategory === 'Annual Conference Photos' &&
-    annualConferenceFolders.length > 0 &&
+    confPhotos.length > 0 &&
     filteredPhotos.length === 0
 
   // If no photos, show placeholder message or folder embed
