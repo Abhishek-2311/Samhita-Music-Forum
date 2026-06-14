@@ -110,12 +110,12 @@ export default function GallerySection() {
   useEffect(() => {
     async function loadDynamicGallery() {
       try {
-        const res = await fetch('/api/gallery');
+        const res = await fetch('/api/gallery', { cache: 'no-store' });
         if (!res.ok) throw new Error('API failed');
         const data = await res.json();
-        if (data.singlePhotos && data.confPhotos) {
+        if (data.singlePhotos && data.conferencePhotos) {
           setPhotos(data.singlePhotos);
-          setConfPhotos(data.confPhotos);
+          setConfPhotos(data.conferencePhotos);
         }
       } catch (err) {
         console.error('Failed to load dynamic gallery from Google Drive. Using offline fallback.', err);
