@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Cinzel, Dancing_Script, Open_Sans } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import './globals.css'
 
 const cinzel = Cinzel({ subsets: ["latin"], variable: '--font-serif' })
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body className={`${openSans.variable} ${cinzel.variable} ${dancingScript.variable} font-sans antialiased bg-background text-foreground`}>
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
